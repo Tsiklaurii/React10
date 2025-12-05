@@ -1,1 +1,10 @@
+@font-face {
+    font-family: RedHatText;
+    src: url("./assets/fonts/RedHatText-Regular.ttf");
+}
+
 @import "tailwindcss";
+
+@theme {
+    --font-RedHatText: 'RedHatText', 'sans-serif';
+}
