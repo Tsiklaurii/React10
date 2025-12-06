@@ -3,10 +3,10 @@ import TimerSegment from "../TimerSegment/TimerSegment";
 
 const Timer = () => {
     const [totalSeconds, setTotalSeconds] = useState(
-        8 * 24 * 60 * 60 + // 8 დღე
-        23 * 60 * 60 +     // 23 საათი
-        55 * 60 +          // 2 წუთი
-        41                 // 5 წამი
+        8 * 24 * 60 * 60 +
+        23 * 60 * 60 +
+        55 * 60 +
+        41
     );
 
     useEffect(() => {
