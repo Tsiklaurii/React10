@@ -1,8 +1,9 @@
+import Countdown from "./components/Countdown/Countdown"
 
 const App = () => {
   return (
     <div>
-
+      <Countdown />
     </div>
   )
 }
