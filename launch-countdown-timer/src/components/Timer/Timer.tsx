@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 import TimerSegment from "../TimerSegment/TimerSegment";
 
 const Timer = () => {
-    const [totalSeconds, setTotalSeconds] = useState(
-        8 * 24 * 60 * 60 +
-        23 * 60 * 60 +
-        55 * 60 +
-        41
-    );
+    const [totalSeconds, setTotalSeconds] = useState(777341);
 
     useEffect(() => {
         if (totalSeconds <= 0) return;
